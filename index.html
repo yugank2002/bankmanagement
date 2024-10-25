@@ -1,0 +1,183 @@
+<html>
+<head>
+<title>index</title>
+<style>
+    .main{
+        width:100%;
+        height:100vh;
+        background-color: antiquewhite;
+        
+    }
+    .page{
+        width:100%;
+        height:calc(100vh - 5vw);
+        display:flex;
+    }
+
+    .nav{
+        width:100%;
+        height:5vw;
+        background: linear-gradient(to bottom right , #01b88a,#02b939);
+
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 4vw;
+            font-weight: 600;
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            
+        }
+    }
+
+    .left{
+        width:50%;
+        
+        line-height: 1vw;
+        font-family: "Montserrat", sans-serif;
+        .content{
+           
+            width:fit-content;
+            height:17vw;
+        }
+        h2{
+            margin-top: 11vw;
+            margin-left: 4vw;
+            font-size: 2vw;
+            font-weight: 650;
+            color:rgb(68, 67, 67);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h1{
+            padding-left: 4vw;
+            text-transform: uppercase;
+            color:rgb(6, 206, 89);
+            font-size: 5vw;
+            font-weight: 800;
+            transition:all ease 0.7s;
+        }
+        h1:hover{
+            scale:1.1;
+        }
+
+       button{
+        font-size: 1.7vw;
+        font-family:"Montserrat", sans-serif ;
+        padding: 1vw 1.5vw;
+        background: linear-gradient(to bottom right , #01b88a,#02eb48);
+        color:#fff;
+         border:none;
+         border-radius: 5px;
+        font-weight: 500;
+        transition: all ease 0.5s;
+        margin:2vw 4vw;
+
+        a{
+            text-decoration: none;
+            color:#fff
+        }
+        }
+
+      button:hover{
+    border:2px solid rgb(6, 206, 89);
+    background: #fff;
+    
+    padding: 1.2vw 2vw;
+    a{
+        color:rgb(6, 206, 89);
+    }
+}
+
+.image{
+    margin-top: 4vw;
+    padding-left: 4vw;
+   
+    height:fit-content;
+    
+
+    img{
+    width:15vw;
+    
+
+}
+}
+
+
+}
+
+.right{
+    width:50%;
+    .rbi{
+        
+        position:absolute;
+        margin-top: 4vw;
+        margin-left: 6vw;
+       
+        img{
+            width:35vw;
+            opacity: 0.1;
+        }
+    }
+    .image1{
+       position:relative;
+        margin-top:7vw;
+        margin-left: 9vw;
+        img{
+            width:28vw;
+
+        }
+    }
+
+    .image2{
+       
+        align-content: end;
+margin-top: .2vw;
+margin-left: 70%;
+width:fit-content;
+        img{
+            width:15vw;
+        }
+    }
+}
+
+
+
+
+</style>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <h1>bharat  bank</h1>
+        </div>
+        <div class="page">
+            <div class="left">
+                <div class="content">
+                    <h2>BharatVasiyo Ka Bharosa...</h2>
+                <h1>bharat bank</h1>
+                <button> <a href="login.html">Login</a></button>
+                </div>
+                
+                <div class="image"><img src=".\images\makeinindia.png" alt=""></div>
+                    
+                
+            </div>
+            <div class="right">
+                <div class="rbi">
+                    <img src=".\images\rbi.png" alt="">
+                </div>
+                <div class="image1">
+                    <img src=".\images\modi.png" alt="">
+                </div>
+                <div class="image2">
+                    <img src=".\images\digitalindia.png" alt="">
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+
+ 
+</body>
+</html>
